@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+#todo{
+    max-width: 500px;
+    margin:0 auto;
+    min-height: 400px;
+    background:rgb(225, 225, 43);
+    padding: 10px 20px;
+}
+h1{
+    text-align: center;
+}
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+ul li{
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+ul > li.done{
+    background: green;
+    color:#fff;
+}
+ul li.done button{
+}
+ul li button{ 
+}
